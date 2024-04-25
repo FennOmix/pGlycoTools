@@ -1,1 +1,1 @@
-# glycoworkbench_to_gdb
+# Some tools/scripts for pGlyco
