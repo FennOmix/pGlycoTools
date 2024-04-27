@@ -115,7 +115,8 @@ class pGlycoFilterMix:
                                 removeTag[j] = 1
                     else:
                         if (
-                            abs(abs(MHi - MHj) - round(abs(MHi - MHj))) > 0.05
+                            abs(abs(MHi - MHj) - round(abs(MHi - MHj))) > 0.05 or 
+                            abs(PPMi - PPMj) > 1.0 * min(PPMi, PPMj)
                         ):
                             if GlyScorei < GlyScorej:
                                 removeTag[i] = 1
