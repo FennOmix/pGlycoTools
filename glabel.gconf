@@ -1,0 +1,26 @@
+#########################
+H = shape:o,color:green,marker:145.0495347452;163.0600994315;162.0528234315+163.0600994315;162.0528234315*2+163.0600994315;162.0528234315*3+163.0600994315;366.1394719645+162.0528234315;366.1394719645+162.0528234315*2;366.1394719645+162.0528234315*3
+N = shape:s,color:blue,marker:138.0552587690;168.0655191604;186.0760838467;204.0866485330;203.079372533+204.0866485330;203.079372533+204.0866485330+162.0528234315;203.079372533+204.0866485330+162.0528234315*2
+A = shape:D,color:purple,marker:274.0921278414;292.1026925277;657.2348884922;657.2348884922+162.0528234315
+G = shape:D,color:cyan,marker:290.08704246349997;308.0976071497999;673.2298031143
+F = shape:^,color:red,marker:147.0651848094;350.1445573424;350.1445573424+162.0528234315
+X = shape:*,color:gold,marker:133.0495347452;295.1023581767
+pH = shape:o,color:orange,fill:right,alt:green,marker:243.0264304315
+aH = shape:o,color:pink,fill:right,alt:green,marker:179.0793635+1.007276;179.0793635+162.0528234315+1.007276;179.0793635+203.079372533+1.007276
+PG = shape:s,color:gold,fill:right,alt:blue,marker:329.1455454
+HA = shape:D,color:blue,fill:top,alt:white,marker:
+#########################
+glycan_type = N
+result_has_fragments = 1
+plot_decoy_peptide = 0
+plot_max_glycan_FDR = 1.0
+plot_max_peptide_FDR = 1.0
+plot_max_total_FDR = 1.0
+plot_min_glycan_score = 0
+plot_min_peptide_score = 0
+plot_min_total_score = 0.0
+is_batch_plot = 1
+glyco_as_text = 0
+save_dpi = 120
+aaini = aa.ini
+glycoini = glyco.ini

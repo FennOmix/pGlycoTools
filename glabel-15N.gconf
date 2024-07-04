@@ -1,0 +1,27 @@
+#########################
+label = N~15N
+H = shape:o,color:green,marker:C(6)O(4)H(8);C(6)O(5)H(10);C(12)O(10)H(20);C(14)O(10)N(1)H(23)
+N = shape:s,color:blue,marker:C(7)O(2)N(1)H(7);C(8)O(3)N(1)H(9);C(8)O(4)N(1)H(11);C(8)O(5)N(1)H(13)
+A = shape:D,color:purple,marker:C(11)O(7)N(1)H(15);C(11)O(8)N(1)H(17);C(11)O(7)N(1)H(15);C(25)O(17)N(2)H(38)
+G = shape:D,color:cyan,marker:C(11)O(8)N(1)H(15);C(11)O(9)N(1)H(17);C(25)O(18)N(2)H(38)
+F = shape:^,color:red,marker:C(6)O(4)H(10);C(14)O(9)N(1)H(23)
+X = shape:*,color:gold,marker:C(5)O(4)H(8);C(11)O(9)H(18)
+pH = shape:o,color:orange,fill:right,alt:green,marker:C(6)O(8)H(11)P(1)
+aH = shape:o,color:pink,fill:right,alt:green,marker:C(6)O(5)14N(1)H(13);C(12)O(10)14N(1)H(23);C(14)O(10)14N(1)N(1)H(26)
+PG = shape:s,color:gold,fill:right,alt:blue,marker:C(13)O(6)N(4)H(20)
+HA = shape:D,color:blue,fill:top,alt:white,marker:
+#########################
+glycan_type = N
+result_has_fragments = 1
+plot_decoy_peptide = 0
+plot_max_glycan_FDR = 1.0
+plot_max_peptide_FDR = 1.0
+plot_max_total_FDR = 1.0
+plot_min_glycan_score = 0
+plot_min_peptide_score = 0
+plot_min_total_score = 0.0
+is_batch_plot = 1
+glyco_as_text = 0
+save_dpi = 120
+aaini = aa-15N.ini
+glycoini = glyco-15N.ini
